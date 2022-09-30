@@ -11,7 +11,10 @@ if (firstNumber <= 0 || secondNumber <= 0)
 {
     Console.WriteLine("Error. Numbers aren't natural");
 }
-Console.WriteLine(PrintSumNumbers(firstNumber, secondNumber));
+else 
+{
+    Console.WriteLine(PrintSumNumbers(firstNumber, secondNumber));
+}
 
 int PrintSumNumbers(int num1, int num2)
 {
