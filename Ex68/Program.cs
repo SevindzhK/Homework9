@@ -10,7 +10,10 @@ if (firstNumber < 0 || secondNumber < 0)
 {
     Console.WriteLine("Error. Numbers aren't non-negative");
 }
-Console.WriteLine(CalculateAkkermanFunction(firstNumber, secondNumber));
+else 
+{
+    Console.WriteLine(CalculateAkkermanFunction(firstNumber, secondNumber));
+}
 
 int CalculateAkkermanFunction(int m, int n)
 {
